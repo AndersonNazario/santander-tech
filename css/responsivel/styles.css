@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    width: 50%;
+    font-size: 33px;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    transition: 0.2s;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+
+    animation: pulsar 1s infinite;
+    transform: scale(1);
+     
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        border-radius: 10%;
+
+    }
+    50% {
+        transform: scale(1.2);
+        border-radius: 50%;
+    }
+    100% {
+        transform: scale(1);
+        border-radius: 0%;
+    }
+}
+
+.seta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    width: 100%;
+    background-color: white;
+}
+
+.img_seta{
+    width: 50px;
+    height: 50px;
+
+    animation: login 1s infinite;
+}
+
+@keyframes login {
+    0%{
+        transform: rotate (0deg);
+    }
+    100%{
+        transform: rotateZ(360deg)
+    }
+    
+}
+
+
+
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+h2 {
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0.3;
+}
+
+button{
+    width: 50%;
+    font-size: 33px;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    transition: 0.2s;
+    margin: auto;
+    display: block;
+}
+
+button:hover{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 35px;
+}
+
+
+@media screen and (min-width: 500px){
+    body{
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media print{
+    img{
+        display: none;
+    }
+}

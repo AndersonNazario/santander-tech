@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <h1>Formulario</h1>
+        <hr>
+        <form>
+            <div>
+                <label for="texto">Nome completo: </label>
+                <input type="text" id="texto" placeholder="Informe seu nome ..." name="nome">
+                <!-- <input type="text" value="Anderson"> -->
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Dat de nascimento</label>
+                <input type="date" id="data" name="ddata">
+            </div>
+
+            <div>
+                <label for="hora">Hora</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <div>
+                <label for="numero">Numero</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+
+            <div>
+                <label for="arquivo">Arquivo</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <div>
+                <label for="url">URL</label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div>
+                <label for="color">COR</label>
+                <input type="color" id="color" name="color">
+            </div>
+
+            <div>
+                <label for="renge">range</label>
+                <input type="range" id="range" name="range" value="150" max="350">
+            </div>
+
+            <div>
+                <label for="checkbox">checkbox</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox" checked >
+                <input type="radio" id="checkbox" name="checkbox">
+                <input type="radio" id="checkbox" name="checkbox">
+                <input type="radio" id="checkbox" name="checkbox">
+            </div>
+
+            <div>
+                <label for="reset">reset</label>
+                <input type="reset" id="reset" name="reset" value="LIMPAR">
+            </div>
+
+         
+            <div>
+                <label for="bio">BIO: </label>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+
+            <select name="select" id="select">
+                <option value="" disabled selected>Seleciona uma das opçoes</option>
+                <option value="receita">RECEITA</option>
+                <option value="despesa">DESOESA</option>
+                <option value="valor">VALOR</option>
+            </select>
+
+            <div>
+                <input type="submit" id="submit" name="submit" value="EVIAR">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,18 @@
+table tr:first-child{
+    background-color: darkcyan;
+}
+
+table tr:nth-child(2n + 3){
+    background-color: #aaa;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    border: 4px solid red;
+    display: inline-block;
+}
+
+img{
+    width: 100px;
+}
